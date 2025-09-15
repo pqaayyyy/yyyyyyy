@@ -1,0 +1,7 @@
+Username:Password:ClientID
+
+local clientId = game:GetService("RbxAnalyticsService"):GetClientId()
+
+setclipboard(clientId)
+
+print(" clientid (HWID) copied to clipboard: " .. clientId)
