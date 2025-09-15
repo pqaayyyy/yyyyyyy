@@ -1,5 +1,3 @@
-Username:Password:ClientID
-
 local clientId = game:GetService("RbxAnalyticsService"):GetClientId()
 
 setclipboard(clientId)
